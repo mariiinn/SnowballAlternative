@@ -7,8 +7,10 @@ body {
 h1 {
   color: white;
   font-size: 2em;
-  font-style: bold;
+  /*font-weight: bold;*/
   text-align: center;
+  font-family: Helvetica;
+  /*font-family: Gadget;*/
 }
 
 .container {
@@ -41,16 +43,16 @@ h1 {
   grid-column: col-1-start/col-6-end;
 }
 
-/*
+
 .main-col-1-2 {
   grid-column: col-1-start/col-3-start;
 }
 
 .main-col-3-6 {
-  grid-column: col-3-start/col-6-end;*/
+  grid-column: col-3-start/col-6-end;
   /*background-image: url(../images/emptyPlate.jpg);*/
   /*background-size: cover;*/ /* Image should cover the box */
-/*}*/
+}
 
 .main-col-0-50 {
   grid-column: col-1-start/col-4-start;
