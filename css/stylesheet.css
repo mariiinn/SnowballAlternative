@@ -37,9 +37,7 @@ th {
   top: 0px;
   height: 10vh;
   width: 100%;
-  background-image: url(../images/nightsky.jpg);
-  background-size: cover;
-  color: white;
+  background-color: white;
 }
 
 .backgroundWhite {
