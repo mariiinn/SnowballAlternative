@@ -1,8 +1,8 @@
 body {
   background-image: url(../images/nightsky.jpg);
   background-size: 100vw;
-  background-repeat: no-repeat;
-  background-color: black;
+  /*background-repeat: no-repeat;
+  background-color: black;*/
   margin-top: 10vh;
   font-family: Helvetica;
 }
