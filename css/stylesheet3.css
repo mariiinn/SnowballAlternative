@@ -1,3 +1,8 @@
+/* https://freefrontend.com/css-scroll-effects/ */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(../images/nightsky.jpg);
   background-size: 100vw;
@@ -34,10 +39,12 @@ th {
   top: 0px;
   left: 0px;
   padding-top: 2vh;
-  height: 8vh;
+  height: 9vh;
   width: 100%;
   background-color: white;
   text-align: right;
+  /* https://www.w3schools.com/cssref/pr_pos_z-index.asp */
+  z-index: 1;
 }
 
 .logo {
@@ -71,6 +78,28 @@ a:hover {
 .imagePadding {
   padding-left: 5vw;
   padding-bottom: 5vh;
+}
+
+/* https://codyhouse.co/blog/post/css-rounded-triangles-with-clip-path
+https://bennettfeely.com/clippy/ */
+.triangle {
+  clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.triangle2 {
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);
+}
+
+.triangle3 {
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.diagonal1 {
+  clip-path: polygon(100% 0, 0 0, 100% 20%);
+}
+
+.diagonal2 {
+  clip-path: polygon(0 84%, 0 100%, 100% 100%);
 }
 
 [class*="main-"] {
