@@ -1,0 +1,112 @@
+body {
+  background-image: url(../images/nightsky.jpg);
+  background-size: 100vw;
+  /*background-repeat: no-repeat;
+  background-color: black;*/
+  margin-top: 10vh;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+th {
+  font-size: 2em;
+  padding: 1vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start]
+      1fr [col-4-start] 1fr [col-5-start] 1fr [col-6-start] 1fr [col-6-end];
+  grid-row: auto;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding-top: 2vh;
+  height: 8vh;
+  width: 100%;
+  background-color: white;
+  text-align: right;
+}
+
+.logo {
+  /*text-align: left;*/
+  float: left;
+  font-size: 2.5em;
+  margin-left: 2vw;
+}
+
+.navbar li {
+  display: inline;
+  font-size: 1.2em;
+  padding: 2vw;
+  /*text-align: right;
+  padding: 15px;*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+.imagePadding {
+  padding-left: 5vw;
+  padding-bottom: 5vh;
+}
+
+[class*="main-"] {
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.main-col-full {
+  grid-column: col-1-start/col-6-end;
+}
+
+
+.main-col-1-2 {
+  grid-column: col-1-start/col-3-start;
+}
+
+.main-col-3-6 {
+  grid-column: col-3-start/col-6-end;
+  /*background-image: url(../images/emptyPlate.jpg);*/
+  /*background-size: cover;*/ /* Image should cover the box */
+}
+
+.main-col-1-4 {
+  grid-column: col-1-start/col-5-start;
+}
+
+.main-col-5-6 {
+  grid-column: col-5-start/col-6-end;
+  /*background-image: url(../images/emptyPlate.jpg);*/
+  /*background-size: cover;*/ /* Image should cover the box */
+}
+
+.main-col-0-50 {
+  grid-column: col-1-start/col-4-start;
+}
+
+.main-col-50-100 {
+  grid-column: col-4-start/col-6-end;
+}
