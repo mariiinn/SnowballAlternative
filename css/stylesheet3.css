@@ -72,7 +72,8 @@ a:hover {
 }
 
 .backgroundWhite {
-  background-color: white;
+  /*background-color: white;*/
+  background-color: #e6e6e6;
 }
 
 .imagePadding {
