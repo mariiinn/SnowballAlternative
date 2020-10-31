@@ -144,3 +144,7 @@ https://bennettfeely.com/clippy/ */
 .main-col-50-100 {
   grid-column: col-4-start/col-6-end;
 }
+
+@media screen (max-width:600px) {
+  
+}
