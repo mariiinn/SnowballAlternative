@@ -164,6 +164,10 @@ https://bennettfeely.com/clippy/ */
     /*font-size: 3vh;*/
   }
 
+  p {
+    font-size: 2vw;
+  }
+
   .logo {
     font-size: 4vw;
     margin-left: 2vw;
