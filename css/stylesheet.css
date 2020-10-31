@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-  font-size: 3vh;
+  font-size: 2vw;
 }
 
 p {
@@ -158,6 +158,10 @@ https://bennettfeely.com/clippy/ */
 
   h2 {
     font-size: 5vw;
+  }
+
+  h3 {
+    font-size: 3vh;
   }
 
   .logo {
