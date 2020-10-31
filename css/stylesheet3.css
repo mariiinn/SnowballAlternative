@@ -10,6 +10,7 @@ body {
   background-color: black;*/
   margin-top: 10vh;
   font-family: Helvetica;
+  overflow-x: hidden;
 }
 
 h1 {
