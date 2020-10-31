@@ -15,7 +15,11 @@ body {
 
 h1 {
   color: white;
+<<<<<<< HEAD
   font-size: 5vh;
+=======
+  font-size: 2.3em;
+>>>>>>> feb78ef51e615b327cc610b929122bbbb63f395f
   text-align: center;
 }
 
