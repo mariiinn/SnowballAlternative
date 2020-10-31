@@ -54,7 +54,7 @@ p {
 .logo {
   /*text-align: left;*/
   float: left;
-  font-size: 7vh;
+  font-size: 3.5vw;
   margin-left: 2vw;
 }
 
@@ -165,7 +165,7 @@ https://bennettfeely.com/clippy/ */
   }
 
   .logo {
-    font-size: 5vh;
+    font-size: 4vw;
     margin-left: 2vw;
   }
 }
