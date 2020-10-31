@@ -145,6 +145,10 @@ https://bennettfeely.com/clippy/ */
   grid-column: col-4-start/col-6-end;
 }
 
+.hideOnPc {display: none;} /* Hide content on pc */
+
 /* Phone */
 @media only screen and (max-width: 600px) {
+  .hideOnPh {display: none;} /* Hide content on phone */
+  .showOnPh {display: block;} /* Show content hidden on the pc version */
 }
