@@ -145,11 +145,6 @@ https://bennettfeely.com/clippy/ */
   grid-column: col-4-start/col-6-end;
 }
 
-<<<<<<< HEAD
-@media screen (max-width:600px) {
-  
-=======
 /* Phone */
 @media only screen and (max-width: 600px) {
->>>>>>> 3b3921f97032b49dd4f1587ffe322267ffceea15
 }
