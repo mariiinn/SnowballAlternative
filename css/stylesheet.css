@@ -153,12 +153,11 @@ https://bennettfeely.com/clippy/ */
   }
 
   h1 {
-    /*color: white;*/
-    font-size: 1vh;
-    /*text-align: center;*/
+    font-size: 4vh;
   }
 
-  .navbar {
-    width: 100%;
+  .logo {
+    font-size: 5vh;
+    margin-left: 2vw;
   }
 }
