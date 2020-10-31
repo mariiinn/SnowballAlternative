@@ -151,4 +151,41 @@ https://bennettfeely.com/clippy/ */
 @media only screen and (max-width: 600px) {
   .hideOnPh {display: none;} /* Hide content on phone */
   .showOnPh {display: block;} /* Show content hidden on the pc version */
+
+  [class*="main-"] {
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+
+  .main-col-full {
+    grid-column: col-1-start/col-6-end;
+  }
+
+  .main-col-1-2 {
+    grid-column: col-1-start/col-3-start;
+  }
+
+  .main-col-3-6 {
+    grid-column: col-3-start/col-6-end;
+    /*background-image: url(../images/emptyPlate.jpg);*/
+    /*background-size: cover;*/ /* Image should cover the box */
+  }
+
+  .main-col-1-4 {
+    grid-column: col-1-start/col-5-start;
+  }
+
+  .main-col-5-6 {
+    grid-column: col-5-start/col-6-end;
+    /*background-image: url(../images/emptyPlate.jpg);*/
+    /*background-size: cover;*/ /* Image should cover the box */
+  }
+
+  .main-col-0-50 {
+    grid-column: col-1-start/col-4-start;
+  }
+
+  .main-col-50-100 {
+    grid-column: col-4-start/col-6-end;
+  }
 }
