@@ -173,6 +173,14 @@ https://bennettfeely.com/clippy/ */
     margin-left: 2vw;
   }
 
+  button {
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  /*
+
   .dropbutton {
     border: none;
     font-size: 5vw;
@@ -182,6 +190,7 @@ https://bennettfeely.com/clippy/ */
   }
 
   .dropdown {
+    top: 0px;
     position: relative;
     display: inline-block;
   }
@@ -191,6 +200,7 @@ https://bennettfeely.com/clippy/ */
     position: absolute;
     background-color: #f1f1f1;
     z-index: 1;
+    width: 95vw;
   }
 
   .dropdown-content a {
@@ -210,6 +220,6 @@ https://bennettfeely.com/clippy/ */
 
   .dropdown:hover .dropbtn {
     background-color: #6666ff;
-  }
+  }*/
 
 }
