@@ -150,6 +150,7 @@ https://bennettfeely.com/clippy/ */
   body {
     background-image: url(../images/nightsky.jpg);
     background-size: 200vh;
+    margin-top: 0px;
   }
 
   h1 {
@@ -175,8 +176,9 @@ https://bennettfeely.com/clippy/ */
 
   /* Position dropdownContent */
   .dropdown {
-    position: relative;
+    position: fixed;
     display: inline-block;
+    z-index: 1;
   }
 
   /* Menu button style */
@@ -184,7 +186,8 @@ https://bennettfeely.com/clippy/ */
     background-color: black;
     color: white;
     font-size: 5vw;
-    width: 100%;
+    height: 10vh;
+    width: 95vw;
     border: none;
   }
 
@@ -194,7 +197,7 @@ https://bennettfeely.com/clippy/ */
     position: absolute; /* Don't move the rest of the content */
     background-color: white;
     text-align: center;
-    width: 95%;
+    width: 95vw;
   }
 
   /* Link styles */
