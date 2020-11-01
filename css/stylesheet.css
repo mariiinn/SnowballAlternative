@@ -176,6 +176,7 @@ https://bennettfeely.com/clippy/ */
 
   /* Position dropdownContent */
   .dropdown {
+    left: 0px;
     position: fixed;
     display: inline-block;
     z-index: 1;
@@ -187,7 +188,7 @@ https://bennettfeely.com/clippy/ */
     color: white;
     font-size: 5vw;
     height: 8vw;
-    width: 95vw;
+    width: 100vw;
     border: none;
   }
 
@@ -197,7 +198,7 @@ https://bennettfeely.com/clippy/ */
     position: absolute; /* Don't move the rest of the content */
     background-color: white;
     text-align: center;
-    width: 95vw;
+    width: 100vw;
   }
 
   /* Link styles */
