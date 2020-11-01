@@ -208,6 +208,7 @@ https://bennettfeely.com/clippy/ */
     padding: 1vw;
   }
 
+  /* When hovering, show dropdownContent */
   .dropdown:hover .dropdownContent {
     display: block;
   }
