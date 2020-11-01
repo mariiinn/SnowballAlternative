@@ -173,10 +173,39 @@ https://bennettfeely.com/clippy/ */
     margin-left: 2vw;
   }
 
+  /* Position dropdownContent */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Menu button style */
   button {
     background-color: black;
     color: white;
+    font-size: 5vw;
     width: 100%;
+    border: none;
+  }
+
+  /* Content boxes style */
+  .dropdownContent {
+    display: none;
+    position: absolute; /* Don't move the rest of the content */
+    background-color: white;
+    text-align: center;
+    width: 95%;
+  }
+
+  /* Link styles */
+  .dropdownContent a {
+    display: block;
+    border: 1px solid grey;
+    padding: 1vw;
+  }
+
+  .dropdown:hover .dropdownContent {
+    display: block;
   }
 
   /*
