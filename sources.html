@@ -11,15 +11,27 @@
 <body>
   <div class="container">
 
-    <div class="navbar backgroundWhite">
+    <!-- Pc version navigation bar -->
+    <div class="navbar backgroundWhite hideOnPh">
       <a href="index.html" class="logo">Acadreamic</a>
       <ul>
-        <li><a href="#acadreamic">About Acadreamic</a></li>
-        <li><a href="#database">Learning Database</a></li>
-        <li><a href="#features">Additional Features</a></li>
+        <li><a href="index.html#acadreamic">About Acadreamic</a></li>
+        <li><a href="index.html#database">Learning Database</a></li>
+        <li><a href="index.html#features">Additional Features</a></li>
         <li><a href="sources.html">Sources</a></li>
       </ul>
-    </div>
+    </div> <!-- End of pc version navigation bar -->
+
+    <!-- Phone version navigation bar -->
+    <div class="dropdown showOnPh hideOnPc">
+      <button>MENU</button>
+      <div class="dropdownContent">
+        <a href="index.html#acadreamic">About Acadreamic</a>
+        <a href="index.html#database">Learning Database</a>
+        <a href="index.html#features">Additional Features</a>
+        <a href="sources.html">Sources</a>
+      </div>
+    </div> <!-- End of phone version navigation bar -->
 
     <div style="height: 9vh;"></div>
 
