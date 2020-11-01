@@ -172,4 +172,11 @@ https://bennettfeely.com/clippy/ */
     font-size: 4vw;
     margin-left: 2vw;
   }
+
+  .navbar. li {
+	display: block;
+	float: none;
+	width: 100%;
+  }
+
 }
