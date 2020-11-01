@@ -173,10 +173,9 @@ https://bennettfeely.com/clippy/ */
     margin-left: 2vw;
   }
 
-  .navbar. li {
+  .navbar. ul {
 	display: block;
-	float: none;
-	width: 100%;
   }
+
 
 }
