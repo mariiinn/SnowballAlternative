@@ -1,0 +1,83 @@
+body {
+  background-image: url(../images/nightsky.jpg);
+  background-size: 100vw;
+  /*background-repeat: no-repeat;
+  background-color: black;*/
+  margin-top: 10vh;
+  font-family: Helvetica;
+}
+
+h1 {
+  color: white;
+  font-size: 2em;
+  /*font-weight: bold;*/
+  text-align: center;
+  font-family: Helvetica;
+  /*font-family: Gadget;*/
+}
+
+h2 {
+  font-size: 3em;
+}
+
+th {
+  font-size: 2em;
+  padding: 1vw;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: [col-1-start] 1fr [col-2-start] 1fr [col-3-start]
+      1fr [col-4-start] 1fr [col-5-start] 1fr [col-6-start] 1fr [col-6-end];
+  grid-row: auto;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  height: 10vh;
+  width: 100%;
+  background-color: white;
+}
+
+.backgroundWhite {
+  background-color: white;
+}
+
+[class*="main-"] {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.main-col-full {
+  grid-column: col-1-start/col-6-end;
+}
+
+
+.main-col-1-2 {
+  grid-column: col-1-start/col-3-start;
+}
+
+.main-col-3-6 {
+  grid-column: col-3-start/col-6-end;
+  /*background-image: url(../images/emptyPlate.jpg);*/
+  /*background-size: cover;*/ /* Image should cover the box */
+}
+
+.main-col-1-4 {
+  grid-column: col-1-start/col-5-start;
+}
+
+.main-col-5-6 {
+  grid-column: col-5-start/col-6-end;
+  /*background-image: url(../images/emptyPlate.jpg);*/
+  /*background-size: cover;*/ /* Image should cover the box */
+}
+
+.main-col-0-50 {
+  grid-column: col-1-start/col-4-start;
+}
+
+.main-col-50-100 {
+  grid-column: col-4-start/col-6-end;
+}
