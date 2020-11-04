@@ -5,6 +5,8 @@ html {
 body {
   background-image: url(../images/nightsky.jpg);
   background-size: 100vw;
+  background-repeat: no-repeat;
+  background-color: black;
   margin-top: 10vh;
   font-family: Helvetica;
   overflow-x: hidden;
@@ -166,8 +168,7 @@ a:hover {
 
   /* Menu button style */
   button {
-    background-color: black;
-    color: white;
+    background-color: #e6e6e6;
     font-size: 7vw;
     height: 8vw;
     width: 100vw;
